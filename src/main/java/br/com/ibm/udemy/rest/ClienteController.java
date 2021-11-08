@@ -24,6 +24,7 @@ public class ClienteController {
 
   @Autowired
   private ClienteRepository repository;
+  private String nome = "Bruno";
 
   @PostMapping
   @ResponseStatus(HttpStatus.CREATED)
